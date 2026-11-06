@@ -1,0 +1,30 @@
+[
+  {
+    "Author": "Darion",
+    "Name": "Dippin' Dots",
+    "InternalName": "DippinDots",
+    "AssemblyVersion": "1.0.0.0",
+    "Description": "While the retainer sell list is open, draws a small dot in the bottom-left corner of each retainer bag and Expanded inventory slot, colored by the item's 7-day median sale price x stack size on your home world (Universalis). A hollow ring means the price data is thin or inconsistent. Settings: /dots config, or the cog in the plugin installer.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/darionbuilds/DippinDots",
+    "Tags": [
+      "retainer",
+      "market",
+      "price",
+      "universalis"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "Price dots on retainer and inventory slots while you sell.",
+    "AcceptsFeedback": false,
+    "DownloadLinkInstall": "https://github.com/darionbuilds/DippinDots/releases/download/v1.0.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/darionbuilds/DippinDots/releases/download/v1.0.0.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/darionbuilds/DippinDots/releases/download/v1.0.0.0/latest.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "LastUpdate": 1793938734
+  }
+]
