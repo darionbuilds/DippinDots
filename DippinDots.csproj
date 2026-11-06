@@ -1,0 +1,14 @@
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <!--
+    Dalamud.NET.Sdk 15.0.0 matches Dalamud API 15.
+    It sets net10.0-windows, x64, unsafe, nullable, and references Dalamud + FFXIVClientStructs
+    + Lumina from %APPDATA%\XIVLauncher\addon\Hooks\dev\ (override with DALAMUD_HOME).
+    Building needs the .NET 10 SDK. A Release build also writes bin\Release\DippinDots\latest.zip
+    (DalamudPackager), which is what release.ps1 uploads.
+  -->
+  <PropertyGroup>
+    <Version>1.0.0.0</Version>
+    <Description>Price dots on retainer and inventory slots while you sell.</Description>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+</Project>
